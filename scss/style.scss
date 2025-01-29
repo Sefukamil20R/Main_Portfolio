@@ -1087,7 +1087,7 @@ h1, h2, h3, h4, h5,
 		bottom: 0;
 		content: '';
 		opacity: 0;
-		background: $primary;
+		background: #dfe6e9;
 		z-index: -1;
 		@include transition(.3s);
 		@include media-breakpoint-down(sm){
@@ -1095,18 +1095,18 @@ h1, h2, h3, h4, h5,
 		}
 	}
 	.text{
-		max-width: 80%;
+		max-width: 60%;
 		z-index: 1;
 		opacity: 0;
 		@include transition(.3s);
 		h3{
 			font-size: 20px;
 			a{
-				color: $white;
+				color: #a29bfe;
 			}
 		}
 		span{
-			color: rgba(255,255,255,.8);
+			color : #fdcb6e ;
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			font-size: 12px;
